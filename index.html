@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<script>
+
+function binaer(number) {
+
+var tal = "";
+ 
+while(number > 0) {
+
+    tal = number%2 + tal;
+
+    number = Math.floor(number/2);
+}
+
+    return tal;
+
+}
+console.log(binaer(255));
+
+</script>
